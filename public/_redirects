@@ -1,0 +1,5 @@
+# Netlify _redirects file
+/auth/*    http://139.144.67.77:5902/:splat   200
+/identity/* http://139.144.67.77:5902/:splat  200
+/intro/*    http://139.144.67.77:5902/:splat  200
+/v1/*       http://139.144.67.77:5902/:splat  200
