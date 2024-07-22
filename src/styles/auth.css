@@ -1,0 +1,48 @@
+.line {
+  @apply border-b-4 border-white h-full flex-1 -translate-y-1/2;
+}
+.circle {
+  @apply relative flex flex-col items-center justify-center border-4 border-white rounded-full w-[5vw] aspect-square;
+}
+
+.label {
+  @apply text-white w-[12vw] text-center;
+}
+.label2 {
+  @apply text-white w-fit text-center whitespace-nowrap translate-y-[3.5vw];
+}
+.white-card {
+  @apply bg-white p-[3vh] rounded-lg my-[3vh];
+}
+.info {
+  @apply h-[50%] hidden sm:flex sm:flex-col;
+}
+.info p {
+  @apply font-bold text-lg py-[1.5vh];
+}
+.info span {
+  @apply text-sm opacity-80;
+}
+.bg-register {
+  background: transparent linear-gradient(117deg, #032ca6 0%, #3b67eb 100%) 0%
+    0% no-repeat padding-box;
+}
+.input-box {
+  @apply flex flex-row flex-wrap justify-between w-full gap-y-[1.2vh];
+}
+.input {
+  @apply  rounded-md p-[1.2vh] my-[1.2vh];
+}
+.info-verfication{
+  @apply flex flex-row justify-between text-white;
+}
+.info-verfication div{
+  @apply flex flex-col;
+}
+.info-verfication p{
+  @apply text-xl font-semibold ;
+}
+.info-verfication span{
+  @apply text-xs py-1 opacity-80;
+}
+

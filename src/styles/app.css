@@ -1,0 +1,29 @@
+.preq-form {
+  @apply text-black w-[75vw] lg:w-[55vw] h-fit bg-background flex flex-col space-y-[2vh] my-[2vh] px-[2vw];
+  font-family: "Poppins", sans-serif;
+}
+.preq-form label {
+  @apply text-lg min-w-fit font-medium;
+}
+.preq-form input {
+  @apply rounded-md w-full py-2 px-3 mx-[1vw];
+}
+
+.form {
+  @apply text-black h-fit bg-background flex flex-col space-y-[2vh] my-[2vh];
+  font-family: "Poppins", sans-serif;
+}
+.form label {
+  @apply w-fit min-w-[25vw] text-sm font-normal;
+}
+.form input {
+  @apply rounded-md w-full py-2 px-3 mx-[1vw];
+}
+
+.label-row {
+  @apply flex flex-row items-center space-x-1 my-[1vh];
+}
+
+.form-div {
+  @apply flex flex-row items-center space-x-1
+}

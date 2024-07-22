@@ -1,0 +1,22 @@
+/* custom.css */
+@layer components {
+    .row {
+      @apply flex flex-row;
+    }
+    .row-center {
+      @apply flex flex-row justify-center items-center;
+    }
+    .row-between {
+      @apply flex flex-row justify-between;
+    }
+    .col {
+      @apply flex flex-col;
+    }
+    .col-center {
+      @apply flex flex-col justify-center items-center;
+    }
+    .col-between {
+      @apply flex flex-col justify-between;
+    }
+  }
+  

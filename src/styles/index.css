@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import "./custom.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Poppins";
+  @apply text-sm;
+}
+/* scroll bar x */
+::-webkit-scrollbar {
+  width: 0.12em;
+  height: 0.12em;
+  opacity: 0; /* Hide the scrollbar when not in use */
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Show the scrollbar on hover */
+::-webkit-scrollbar:hover {
+  opacity: 0.6;
+}
+
+/* ::-webkit-scrollbar:horizontal {
+  height: 0.25em;
+} */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 0px solid slategrey;
+}
+/* On thumb hover */
+::-webkit-scrollbar-thumb:hover {
+  /* background: #1e1e24; */
+  outline: 1px solid white;
+}
+p span h1 {
+  font-family: "Poppins";
+}
+.row {
+  @apply flex flex-row;
+}
+.row-center {
+  @apply flex flex-row justify-center items-center;
+}
+.row-between {
+  @apply flex flex-row justify-between;
+}
+.row-jb-center {
+  @apply flex flex-row justify-between items-center;
+}
+.col {
+  @apply flex flex-col;
+}
+.col-center {
+  @apply flex flex-col justify-center items-center;
+}
+.col-between {
+  @apply flex flex-col justify-between;
+}
+.col-jb-center {
+  @apply flex flex-col justify-between items-center;
+}
+
+/* SIDEBAR CSS */
+.links {
+  @apply flex flex-row items-center py-[1vh] px-[2vw];
+}
+.active {
+  @apply bg-primaryLight text-white;
+}
+.inactive {
+  @apply text-white;
+}
+.link-title {
+  font: normal normal medium Poppins;
+  @apply text-[14px] ml-[1vw] font-medium text-white;
+}
+.table-row {
+  @apply border bg-white;
+}
+.table-row p {
+  @apply text-[0.7rem] xl:text-sm;
+}
+
+.table-text {
+  @apply text-[0.8rem] xl:text-sm self-center;
+}
